@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Pokemon Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Quem é esse Pokemon?
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo"
+            alt="">
+
+        <div class="background">
+            <img id="char" onclick="myButton()" src="./assets/charmanderDark.png" alt="">
+        </div>
+
+        <div class="background1">
+            <img id="bulb" onclick="changePokemon()" src="./assets/BulbasaurDark.png">
+        </div>
+
+        <div class="background2">
+            <img id="squi" onclick="changePokemon()" src="./assets/SquirtleDark.png">
+        </div>
+        <div class="button">
+            <button id="btn" class="btn" onclick="myButton()">Clique aqui</button>
+            <button id="btn-2" class="btn-2" onclick="changePokemon()">Próximo</button>
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
