@@ -12,6 +12,7 @@ if (number === sorteio) {
 
 let sorteio = parseInt(Math.random() * 11)
 let tentativas = 3
+//Refatorar com for
 
 while (tentativas > 0) {
     var number = parseInt(prompt("Digite um número entre 0 e 10"))
