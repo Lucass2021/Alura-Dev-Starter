@@ -7,6 +7,7 @@ function adicionarFilme() {
 function validaFilme() {
     if (filmeFavorito.endsWith(".jpg")) {
         listarFilmesnaTela(filmeFavorito);
+        
     } else {
         alert("Imagem invalida");
     }
